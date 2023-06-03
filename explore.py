@@ -15,7 +15,7 @@ def show_explore_page():
     import matplotlib.pyplot as plt
     df = pd.read_csv('survey_results_public.csv')
     ''', language='python')
-    df = pd.read_csv('survey_results_public.csv')
+    df = pd.read_csv('survey_results_public_sample.csv')
     st.dataframe(df.head())
 
     st.divider()
